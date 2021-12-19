@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(rgb(192, 13, 192),rgb(79, 68, 151),rgb(99, 9, 110),darkviolet);
+    /* background-image: url(images/stil-ck0i9Dnjtj0-unsplash.jpg); */
+    background-size: cover;
+}
+nav{
+    background-color:rgb(4, 15, 15);
+    padding: 10px;
+    text-align: right;
+}
+nav ul li{
+    color:darkslateblue;
+    list-style: none;
+    display: inline;
+    padding-left: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 23px;
+    font-weight: normal;
+}
+nav ul li a:hover{
+    color: #FFFFFF;
+}
+.text{
+    background-color: rgba(4, 15, 15,.5);
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: normal;
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+}
+.text button{
+    background-color: rgb(4, 15, 15);
+    color: gainsboro;
+    font-weight: bold;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+}
+#texts{
+    margin-top: 50px;
+}
+.form-group div{
+    width: 100%;
+}
+form{
+    background-color: rgba(4, 15, 15,.5);
+    width: 45%;
+    padding: 20px;
+    min-width: 400px;
+}
+#flex-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+label{
+    color: gainsboro;
+}
